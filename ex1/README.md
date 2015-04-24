@@ -2,18 +2,20 @@
 #Hash Tables
 
 ###Attached Files:
+<ul>
 <li>GenericHashTable.h - the Header file of the program</li>
 <li>GenericHashTable.c - the Header impementation</li>
-<li>Makefile - compiles and runs the app<li>
-
+<li>Makefile - compiles and runs the app</li>
+</ul>
 
 ###Added Functions:
-<li>int insertObject(Table* t,Object* obj,int loc) - find where to insert the object and instert it</li>
-<li>void resizeHash(Table* t) - resize the Hash</li>
-<li>void reinitHash(Table* t) - re-orders the  Hash after each resize</li>
-<li>void printList(Table *table,int i) - prints the list in a specific cell</li>
-<li>int countList(Object* obj) - count the list' size</li>
-<li>void addToList(Object* list, Object* obj) - add to the list at the end</li>
+
+<ul>int insertObject(Table* t,Object* obj,int loc) - find where to insert the object and instert it</ul>
+<ul>void resizeHash(Table* t) - resize the Hash</ul>
+<ul>void reinitHash(Table* t) - re-orders the  Hash after each resize</ul>
+<ul>void printList(Table *table,int i) - prints the list in a specific cell</ul>
+<ul>int countList(Object* obj) - count the list' size</ul>
+<ul>void addToList(Object* list, Object* obj) - add to the list at the end</ul>
 
 ###IMPORTANT!
 
