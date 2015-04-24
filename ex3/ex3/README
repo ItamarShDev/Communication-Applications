@@ -1,0 +1,14 @@
+itamarsh
+Itaamr Sharify
+Ex3 - SMTP Client
+Submitted Files:
+ex3.c - the mailing program
+Makefile - makefile to compile and run
+README - this file
+
+Important to Know:
+1. As same as before, this Makefile can:
+	make - compile the files
+	make clean - clear the created compiled files
+2. The algorithm uses a modified version of ex1
+3. No memory leaks nor any mistakes found using Valgrind with all its 	 flags

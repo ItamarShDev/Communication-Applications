@@ -1,0 +1,25 @@
+itamarsh	
+Itamar Sharify 301589305
+Hash Tables
+GenericHashTable.h - the Header file of the program
+GenericHashTable.c - the Header impementation
+Makefile - compiles and runs the app
+
+Added Functions:
+int insertObject(Table* t,Object* obj,int loc) - find where to insert the object and instert it
+void resizeHash(Table* t) - resize the Hash
+void reinitHash(Table* t) - re-orders the  Hash after each resize
+void printList(Table *table,int i) - prints the list in a specific cell
+int countList(Object* obj) - count the list' size
+void addToList(Object* list, Object* obj) - add to the list at the end
+
+
+IMPORTANT!
+The Makefile attached will help you run the app easier.
+
+How to:
+1- Type 'make' to compile
+2- Type 'make clean' to delete alll new files from compilation
+3- Type 'make run' to run the application
+
+the Makefile will create a runable file called ex1.

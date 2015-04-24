@@ -1,0 +1,13 @@
+itamarsh
+Itamar Sharify
+Ex5 - Echo Server
+Submitted Files:
+server.c - the server program
+Makefile - makefile to compile
+README - this file
+
+Important to Know:
+to test the server you need to open another terminal for the Telent
+the makefile do it for you!
+type in the erminal 'make run' and the server will run on port 6000,
+also two extra terminals will be open so you could easily run the telnet

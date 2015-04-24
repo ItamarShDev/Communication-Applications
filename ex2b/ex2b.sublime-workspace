@@ -1,0 +1,962 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sy",
+				"style	Tag"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"se",
+				"selector"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"next",
+				"next_week"
+			],
+			[
+				"shifts",
+				"shifts	statement"
+			],
+			[
+				"shi",
+				"shifts"
+			],
+			[
+				"on_button_clicked",
+				"on_button_clicked_fr_noon"
+			],
+			[
+				"day_",
+				"day_text	statement"
+			],
+			[
+				"da",
+				"day_entry"
+			],
+			[
+				"s_sh",
+				"s_shifts"
+			],
+			[
+				"s_n_",
+				"s_n_num"
+			],
+			[
+				"s__n",
+				"s__num"
+			],
+			[
+				"n_",
+				"n_num"
+			],
+			[
+				"s_",
+				"s_num"
+			],
+			[
+				"s",
+				"shifts"
+			],
+			[
+				"max_i",
+				"max_if	(statement)"
+			],
+			[
+				"temp",
+				"temp_name	(statement)"
+			],
+			[
+				"symb",
+				"symbol	function"
+			],
+			[
+				"iter",
+				"iterator	statement"
+			],
+			[
+				"var_co",
+				"var_count	statement"
+			],
+			[
+				"var_c",
+				"var_count	statement"
+			],
+			[
+				"obj",
+				"obj	statement"
+			],
+			[
+				"max",
+				"max_if	statement"
+			],
+			[
+				"f_a",
+				"f_arg	statement"
+			],
+			[
+				"f_ty",
+				"f_type	statement"
+			],
+			[
+				"c_n",
+				"c_name	statement"
+			],
+			[
+				"f_n",
+				"f_name	statement"
+			],
+			[
+				"f_s",
+				"f_statics	statement"
+			],
+			[
+				"f_",
+				"f_statics	statement"
+			],
+			[
+				"static",
+				"statics	statement"
+			],
+			[
+				"for",
+				"for	for loop"
+			],
+			[
+				"sys",
+				"system"
+			],
+			[
+				"wri",
+				"write	function"
+			],
+			[
+				"r",
+				"rstrip"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"arr",
+				"arr	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/itamarsh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 496,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Merge"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"git: ",
+				"Git: Diff"
+			],
+			[
+				"gst",
+				"Git: Status"
+			],
+			[
+				"git:",
+				"Git: Amend Commit"
+			],
+			[
+				"gitch",
+				"Git: Checkout"
+			],
+			[
+				"gcom",
+				"Git: Commit"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"giti",
+				"Git: Init"
+			],
+			[
+				"gsta",
+				"Git: Status"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git:s",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Diff"
+			],
+			[
+				"gco",
+				"Git: Commit"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"gith",
+				"Git: Help"
+			],
+			[
+				"gitrest",
+				"Git (SideBarGit): Revert: discard changes to tracked, clean untracked"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"gitbra",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"gitst",
+				"Git: Stash"
+			],
+			[
+				"comp",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"gstat",
+				"Git: Status"
+			],
+			[
+				"gcomm",
+				"Git: Commit"
+			],
+			[
+				"compa",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"gutter",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"cmm",
+				"Git: Commit"
+			],
+			[
+				"gutt",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"gi",
+				"Git: Merge"
+			],
+			[
+				"inst",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"compare",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"gitg",
+				"GitGutter: Compare Against Origin"
+			],
+			[
+				"got",
+				"Git: Commit"
+			],
+			[
+				"m",
+				"Git: Merge"
+			],
+			[
+				"merg",
+				"Git: Merge"
+			],
+			[
+				"gini",
+				"Git: Init"
+			],
+			[
+				"git: he",
+				"Git: Push Current Branch"
+			],
+			[
+				"head",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"switch",
+				"Snippet: switch"
+			],
+			[
+				"includ",
+				"Snippet: #include \"…\""
+			],
+			[
+				"Snippet: ",
+				"Snippet: #include \"…\""
+			],
+			[
+				"sni",
+				"Snippet: Vector For Loop"
+			],
+			[
+				"Snippet: #i",
+				"Snippet: #include"
+			],
+			[
+				"gitgu",
+				"GitGutter: Compare Against Origin"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"gin",
+				"Git: Init"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"ons",
+				"Set Syntax: ActionScript"
+			]
+		],
+		"width": 732.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/itamarsh/Downloads/Kazrin/Kazrin.html",
+		"/home/itamarsh/Documents/Web Progaramming/Ex1/site.html",
+		"/home/itamarsh/Downloads/Kazrin/style.css",
+		"/home/itamarsh/Downloads/Kazrin/menu.css",
+		"/home/itamarsh/Documents/Web Progaramming/Ex1/style.css",
+		"/home/itamarsh/PycharmProjects/salaycalc/calc_gui.py",
+		"/home/itamarsh/Documents/my shitty apps/calc_gui.py",
+		"/home/itamarsh/Documents/my shitty apps/work_calc.py",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/itamarsh/Documents/From Hardware to Software/2015A_ex11_301589305/JackCompiler.py",
+		"/home/itamarsh/Documents/From Hardware to Software/2015A_ex11_301589305/web.html",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/SublimeAStyleFormatter.sublime-settings",
+		"/home/itamarsh/Documents/my shitty apps/calc_test.py",
+		"/home/itamarsh/Documents/my shitty apps/work_calc.c",
+		"/home/itamarsh/.config/sublime-text-3/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/home/itamarsh/Documents/my shitty apps/work_calc",
+		"/home/itamarsh/Documents/From Hardware to Software/Finished/2015A_ex08_301589305 (2)/VMtranslator.py",
+		"/home/itamarsh/Documents/From Hardware to Software/Finished/2015A_ex01_301589305/And.hdl",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/main.c",
+		"/home/itamarsh/Downloads/Sweep_0to90_2Xsensors.ino",
+		"/home/itamarsh/Documents/From Hardware to Software/2015A_ex10_301589305/JackAnalizer.py",
+		"/home/itamarsh/Downloads/google-appengine-wx-launcher-read-only/setup.py",
+		"/home/itamarsh/.cache/.fr-YdQgFG/2015A_ex10_301589305/JackAnalizer.py",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/BellmanFord.c",
+		"/home/itamarsh/Documents/From Hardware to Software/project-12/Array.jack",
+		"/home/itamarsh/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/itamarsh/Documents/From Hardware to Software/Finished/to-git/Ex12/Math.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/Finished/to-git/Ex01/And.hdl",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/MathTest/Main.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/MathTest/Math.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/MemoryTest/Memory.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/StringTest/String.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/ScreenTest/Screen.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/ScreenTest/Math.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/OutputTest/Output.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/SysTest/Sys.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/KeyboardTest/Keyboard.jack",
+		"/home/itamarsh/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/Plain text.sublime-settings",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/GenericHashTable.c",
+		"/home/itamarsh/Documents/Communication Applications/Ex2/Ex2/BellmanFord.c",
+		"/home/itamarsh/Documents/Communication Applications/ex5/server.c",
+		"/home/itamarsh/Documents/Communication Applications/ex5/server3.c",
+		"/home/itamarsh/Documents/Communication Applications/ex5/server2.c",
+		"/home/itamarsh/Documents/From Hardware to Software/tecs-software-suite-2.5/project-12/StringTest/Main.jack",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/GenericHashTable.h",
+		"/home/itamarsh/Downloads/parser.py",
+		"/home/itamarsh/Documents/From Hardware to Software/Ex11/Average/Main.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/Ex11/Snake/Main.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/Ex11/Pong/Ball.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/Ex11/ConvertToBin/Main.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/Ex11/ComplexArrays/Main.jack",
+		"/home/itamarsh/Documents/From Hardware to Software/Ex11/JackAnalizer.py",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/backup",
+		"/home/itamarsh/Downloads/ex3-itamarsh/ex32.c",
+		"/home/itamarsh/Downloads/ex3-itamarsh/ex31.c",
+		"/home/itamarsh/Documents/From Hardware to Software/2015A_ex08_301589305/VMtranslator.py",
+		"/home/itamarsh/Documents/From Hardware to Software/2015A_ex10_301589305/Stack.py",
+		"/home/itamarsh/Downloads/ex2b/main.c",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/ex3-itamarsh/ex31.c",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/ex3-itamarsh/ex32.c",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/copy/",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/copy/main.c",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/copy/main.c.zip",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/new4/threads.c",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/new4/main.c",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/BellmanFord.h",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/threads.c",
+		"/home/itamarsh/Downloads/router.h",
+		"/home/itamarsh/Downloads/router.c",
+		"/home/itamarsh/Downloads/main/router.c",
+		"/home/itamarsh/Downloads/main/router.h",
+		"/home/itamarsh/Downloads/main/main.c",
+		"/home/itamarsh/Downloads/main.c",
+		"/home/itamarsh/Documents/Communication Applications/Ex2/Ex2/BellmanFord.h",
+		"/home/itamarsh/Documents/Communication Applications/Ex2/Ex2/GenericHashTable.c",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/t.txt",
+		"/home/itamarsh/.config/sublime-text-3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/SublimePython.sublime-settings",
+		"/home/itamarsh/Documents/Communication Applications/ex2b/Makefile",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/printf-for-c.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/case-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/for-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/for-in-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/malloc.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/non-char-malloc.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/strcmp-c.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/char-pointer.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/char-type.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/int-type.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/ask-operator.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/break-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/continue-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/default-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/do-while-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/else-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/float-type.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/global-proc.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/global-proc-with-return.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/global-var.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/if-else-if-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/if-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/#include.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/matrix2-type.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/matrix3-type.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/matrix4-type.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/proc.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/proc-with-return.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/string-type.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/switch.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/switch-case-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/vector-type.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/while-statement.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/case.sublime-snippet",
+		"/home/itamarsh/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/itamarsh/.config/sublime-text-3/Packages/SublimeAStyleFormatter/Default (Linux).sublime-keymap",
+		"/home/itamarsh/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/itamarsh/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
+		"/home/itamarsh/Documents/Communication Applications/ex3/ex3/ex3.c",
+		"/home/itamarsh/Downloads/snake2/Node.jack",
+		"/home/itamarsh/Downloads/snake2/List.jack",
+		"/home/itamarsh/Downloads/snake2/screen.jack",
+		"/home/itamarsh/Downloads/snake2/snakeGame.jack",
+		"/home/itamarsh/Downloads/snake2/Main.jack",
+		"/home/itamarsh/.cache/.fr-IMT6vN/snakeGame.jack"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ltr",
+			"rtl",
+			"title",
+			"let",
+			"le",
+			"python",
+			"sc",
+			"print",
+			"f_statics",
+			"shifts",
+			"CheckButton",
+			"update_result",
+			"s_num",
+			"count[1]",
+			"int(count[0])",
+			"n_num",
+			"self.",
+			"d",
+			"tMonday",
+			"tue2",
+			"tue1",
+			"tue2",
+			"tue1",
+			"tue2",
+			"attach",
+			"add",
+			"self",
+			"button",
+			"s1",
+			"self.",
+			"day_text",
+			"left",
+			"	\n",
+			"			n_num+=8\n",
+			"			n_num+=8	\n",
+			"n_num",
+			"temp",
+			"int(count[0])",
+			"int(count[0]",
+			"jump",
+			"gt",
+			"CALL",
+			"method",
+			"x",
+			"next_block",
+			"freeList",
+			"FL_LENGTH",
+			"FL_NEXT",
+			"prev_block",
+			"abs",
+			"newLine",
+			"printCh",
+			"syn",
+			"printf",
+			"printBuf",
+			"buffer_ini",
+			"it",
+			"find_by_place",
+			"sent",
+			"exist",
+			"num",
+			"loop",
+			"finish",
+			"lock",
+			"free",
+			"localho",
+			"localho	",
+			"port",
+			";/*",
+			"temp",
+			"\n		",
+			"temp",
+			"lock",
+			"locjk",
+			"0",
+			"name",
+			"sockfd",
+			"bind",
+			");\n",
+			"lock",
+			"in find",
+			"		\n",
+			"lock",
+			");\n",
+			"signal",
+			"countlist",
+			"search",
+			"print",
+			"pop argument",
+			"pop argumant",
+			"statments",
+			"if_count",
+			"print (f_arg",
+			"print(f_arg",
+			"print(f_arg)",
+			"f_arg.update",
+			"def subroutineDec",
+			"return",
+			"push argument",
+			"stat",
+			"\n	",
+			"def subroutinBody",
+			"_if",
+			"expr",
+			"_if",
+			"if",
+			"print",
+			"subroutineCall",
+			"def term",
+			"expression",
+			"call",
+			"expr",
+			"def term",
+			"print",
+			"c_name",
+			"call",
+			"subroutineCall",
+			"subroutine",
+			"print",
+			"num+=1",
+			"call",
+			"static",
+			"name",
+			"def keyword",
+			"def classVarDec",
+			"var classVarDec",
+			"field",
+			"obj"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/itamarsh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai (SL) (SublimePythonIDE).tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 100.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-init":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"output.git-remote":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "ex2b.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

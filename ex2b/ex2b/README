@@ -1,0 +1,16 @@
+itamarsh
+Itamar Sharify
+Ex2b - Bellman-Ford - Part 2
+Submitted Files:
+BellmanFord.h - header file for the alfgorithm
+BellmanFord.c - the implementation of Bellman-Ford
+GenericHashTales.h - header of the database
+GenericHashTales.c - implementation ofth database
+main.c - the program
+Makefile - makefile to compile and clean
+README - this file
+
+Important to Know:
+	As same as in Ex2, this Makefile can:
+	make - compile the files
+	make clean - clear the created compiled files

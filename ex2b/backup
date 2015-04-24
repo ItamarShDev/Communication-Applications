@@ -1,0 +1,258 @@
+
+void* thread_op(void *count)
+{
+	int sockfd,newsockfd,port, n,k;
+	socklen_t clilen;
+	struct sockaddr_in serv_addr,cli_addr;
+	struct hostent *server;
+	int i,iter, num;
+	char *ip, *name;
+	Object *obj;
+	int ret_val = 0;
+	int buf[num_of_edges+1];
+	int t_buf[num_of_edges+1];
+
+	for(i=0; i<=num_of_edges; i++)
+	{
+		t_buf[i] = 0;
+	}
+
+	if (!count)
+	{
+		perror("No Input\n");
+		pthread_exit(NULL);
+	}
+
+	num = *(int*)count;
+	i = num % 2;
+	iter = num/2;
+
+	//open socket
+	sockfd= socket(AF_INET,SOCK_STREAM,0);
+
+	if (sockfd<0)
+	{
+		perror("error opening socket");
+		pthread_exit(NULL);
+	}
+
+	sockets[num] = sockfd;
+	bzero((char *) &serv_addr,sizeof(serv_addr));
+	serv_addr.sin_family = AF_INET;
+
+
+
+	if (i == 1) // case receiver
+	{
+
+		//find the neighbor
+		obj = search(table, (void*)src);
+
+		if(!obj)
+		{
+			printf("no object\n");
+			pthread_exit(NULL);
+		}
+
+		//open port to receive
+		//initializing all setting to defaults
+		pthread_mutex_lock(&mutex);
+		name = findMyName(iter);// get the neighbor's name
+		port =obj->port +calc_name_ascii(name);
+
+		serv_addr.sin_addr.s_addr= INADDR_ANY;
+		serv_addr.sin_port=htons(port);
+
+		//try to bind the connection
+		printf("binding to %d port %d\n",sockfd,port);
+		printf("th no %d\n",num);
+		pthread_mutex_unlock(&mutex);
+
+		sockfd= socket(AF_INET,SOCK_STREAM,0);
+
+		if (sockfd<0)
+		{
+			perror("error opening socket");
+			pthread_exit(NULL);
+		}
+
+		sockets[num] = sockfd;
+
+		if (bind(sockfd, (struct sockaddr*)&serv_addr,sizeof(serv_addr))<0)
+		{
+			perror("ERROR on Bind");
+			close_program = 1;
+			pthread_cond_signal(&calc);
+			pthread_cond_signal(&sender);
+			pthread_exit(NULL);
+		}
+
+
+		// wait for data
+		listen(sockfd,5);
+
+		//know your client
+		clilen=sizeof(cli_addr);
+		//create sockets for him
+		newsockfd = accept(sockfd, (struct sockaddr *)&cli_addr, &clilen);
+
+		if (newsockfd < 0)
+		{
+			perror("ERROR on accept");
+			goto end;
+		}
+
+		while(1)
+		{
+
+			//read the data
+			n = read(newsockfd, buf, sizeof(int)*(num_of_edges+1));
+
+			if(n>0)
+			{
+
+				printf("received from %d {0/1} %d\n",port, buf[0]);
+				pthread_mutex_lock(&mutex);
+
+				obj = search(table, (void*)src);
+				obj->_rec = buf[0];
+				pthread_mutex_unlock(&mutex);
+
+				for (i=0; i<=num_of_edges; i++)
+				{
+					printf("[%d] ",buf[i]);
+				}
+
+				printf("\n");
+
+				if (buf[0]==1)
+				{
+					pthread_mutex_lock(&mutex);
+					printf("updating DV\n");
+					updateDV(buf, name);
+					pthread_mutex_unlock(&mutex);
+				}
+
+				if(all_sent()==1)
+				{
+					printf("all sent\n");
+					pthread_mutex_unlock(&mutex);
+					pthread_cond_signal(&calc);
+				}
+			}
+			else break;
+
+		}
+
+		printf("finishing rec No.%d\n",iter);
+		close(newsockfd);
+		goto end;
+	}
+
+	else if (i == 0)//case sender
+	{
+
+		sockfd= socket(AF_INET,SOCK_STREAM,0);
+
+		if (sockfd<0)
+		{
+			perror("error opening socket");
+			pthread_exit(NULL);
+		}
+
+		sockets[num] = sockfd;
+		//connect to the receiver port
+		port =  findMyPort(iter)+ calc_name_ascii(src);// get its ports
+		ip = findMyIP(iter);//get the ip
+		//get server
+		server = gethostbyname(ip);
+
+		if (server == NULL)//case server isn't found
+		{
+			fprintf(stderr,"ERROR, no such host\n");
+			goto end;
+		}
+
+		printf("in sender %d\n",num);
+
+		bzero((char *) &serv_addr, sizeof(serv_addr));
+		//initializing to default
+		bcopy((char *)server->h_addr, (char *)&serv_addr.sin_addr.s_addr, server->h_length);
+		serv_addr.sin_port = htons(port);
+
+		k= 0;
+
+		while (connect(sockfd,(struct sockaddr *)&serv_addr,sizeof(serv_addr))!=-1)
+		{
+			if (k == loop)
+			{
+				perror("ERROR connecting");
+				perror("reached maximum tries");
+
+				goto end;
+			}
+
+			printf(".\n");
+			k++;
+			sleep(1);
+		}
+
+		while(1)
+		{
+
+			if(comp(buf,t_buf) ==0)// if the DV changed
+			{
+				buf[0] =1;
+				k=1;
+				printf("DV Changed\n");
+
+				for(i = 0; i<table->curr_size; i++)
+				{
+					if(table->arr[i])
+					{
+						buf[k] = table->arr[i]->weight;
+						k++;
+					}
+				}
+
+
+				//keep for next iteration
+				for (i=1; i<=num_of_edges; i++)
+				{
+					t_buf[i]=buf[i];
+				}
+			}
+			else
+			{
+				printf("SENDER: no change\n");
+				buf[0] = 0;
+			}
+
+			n = write(sockfd, buf,sizeof(int)*(num_of_edges+1));
+
+			if (n < 0)
+			{
+				perror("ERROR writing to socket");
+				goto end;
+			}
+
+			printf("Sending to %d  \n",port);
+
+			for(i=0; i<=num_of_edges; i++)
+				printf("[%d] ",buf[i]);
+
+			printf("\n");
+
+			pthread_mutex_lock(&mutex);
+			pthread_cond_wait(&sender, &mutex);
+			printf("Sender No.%d WOKE UP!\n",iter);
+		}
+
+	}
+
+end:
+	printf("thread %d is going off\n",iter);
+	close_program = 1;
+	pthread_cond_signal(&calc);
+	pthread_exit(NULL);
+}

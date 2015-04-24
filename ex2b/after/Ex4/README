@@ -1,0 +1,12 @@
+ilanash
+Olesya Shapira 319346565
+Belman Ford
+README - This file
+Makefile - Compiles the files with main.c to executable file bf
+HashTable.h - Header file that contain declartion of functions and defines
+HashTable.c - Implementation of Hash Table 
+CreateDataBase.h - Header file that contain declartion of functions and defines
+CreateDataBase.c - This part read from file and place it into Data Base(Hash Table)
+router.h - Header file that contain declaration of functions and defines 
+router.c - Implementation of Belman Ford algorithm for finding cheapest way from source vertex to all other vertexes using threads and implimentation of server/client to send and receive data from neighbors 
+main.c - main of the programm - getting from user 3 arguments: path of file, source vertex and number of trials to connect to neighbor 
